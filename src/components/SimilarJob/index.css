@@ -1,0 +1,12 @@
+.background-color {
+  background-color: #272727;
+  width: 30vw;
+  padding: 30px;
+  border-radius: 10px;
+}
+@media (max-width: 576px) {
+  .background-color {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

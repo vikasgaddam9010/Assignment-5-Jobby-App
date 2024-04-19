@@ -1,0 +1,20 @@
+.li-item {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+.img-item {
+  height: 60px;
+  width: 60px;
+  margin-right: 30px;
+}
+@media(max-width: 576px){
+  .li-item{
+    width: 50%;
+  }
+  .img-item{
+    margin-right: 20px;
+  }
+}

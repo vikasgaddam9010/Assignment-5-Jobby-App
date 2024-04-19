@@ -1,0 +1,19 @@
+.not-found-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media(max-width: 576px){
+    .not-found-container{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        min-width: 500px;
+    }
+}

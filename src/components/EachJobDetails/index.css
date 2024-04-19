@@ -1,0 +1,65 @@
+.company-logo-1 {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.title-1 {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.description-heading {
+  font-size: 34px;
+}
+.para-description-1 {
+  font-size: 24px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.ul-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.link-item {
+  font-size: 20px;
+}
+.external-link-icon {
+  margin-left: 10px;
+}
+.d-flex-item-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.item-life-at-company-image {
+  width: 250px;
+  height: 250px;
+  margin-left: 30px;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+.d-flex-item {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 576px) {
+  .d-flex-item-space-between {
+    display: flex;
+    flex-direction: column;
+  }
+  .item-life-at-company-image {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .d-flex-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,59 @@
+.header-container {
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 40px;
+  width: 100%;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+}
+@media (max-width: 575px) {
+  .header-container {
+    min-width: 550px;
+  }
+  .d-none-sm {
+    display: none;
+  }
+  .icons-container {
+    width: 150px;
+    font-size: 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  .btn-ioc-log-out{
+    border: 0px solid;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 30px;
+  }
+}
+@media (min-width: 576px) {
+  .icons-container {
+    display: none;
+  }
+  .d-flex-header {
+    padding: 0px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logout-btn {
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: #6366f1;
+    border: 0px solid;
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px;
+    width: 100px;
+  }
+}

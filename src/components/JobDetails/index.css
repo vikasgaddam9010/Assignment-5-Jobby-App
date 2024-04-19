@@ -1,0 +1,121 @@
+.job-container {
+  padding: 40px;
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.profile-filter-section {
+  width: 30vw;
+  min-width: 400px;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn-center {
+  color: #ffffff;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.height {
+  height: 100vh;
+}
+.label {
+  color: #f1f5f9;
+  margin-left: 10px;
+}
+.margin-bottom {
+  margin-bottom: 10px;
+}
+ul {
+  padding: 0px;
+  list-style-type: none;
+}
+.jobs-list-section {
+  width: 59vw;
+  margin-left: 20px;
+}
+.input-search {
+  height: 30px;
+  width: 500px;
+  background-color: #2c364c;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+}
+.search-input {
+  color: #cbd5e1;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 100%;
+  width: 85%;
+  background-color: #000000;
+  border: 0px solid;
+}
+.search-icon {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 0px solid;
+  height: 100%;
+  width: 15%;
+  background-color: #272727;
+  color: #ffffff;
+}
+.logout-btn {
+  margin-top: 20px;
+  font-size: 14px;
+  background-color: #6366f1;
+  border: 0px solid;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px;
+  width: 100px;
+}
+@media (min-width: 576px) {
+  .hide-lg {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .job-container {
+    width: 100%;
+    min-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .profile-filter-section {
+    width: 100%;
+  }
+
+  .input-search-sm {
+    height: 30px;
+    width: 100%;
+    background-color: #2c364c;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .d-none-lg {
+    display: none;
+  }
+  .jobs-list-section {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
